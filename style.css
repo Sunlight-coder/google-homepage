@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    top: 50%;
+    left: 50%; 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 39%;
+    left: 40%;
+    position: absolute;
+  }
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+.material-icons{
+    position: relative;
+   
+}
