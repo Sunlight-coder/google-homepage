@@ -9,17 +9,23 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    margin-top: 1.5%;
 }
 li {
-display: inline;
+    display: inline;
 }
 li a {
+    display: block;
     padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
 .google {
     display: block;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 2%;
     position: relative;
   }
@@ -54,4 +60,36 @@ li a {
   .material-icons {
       font-size: 26;
       color: #babdbe;
+  }
+  ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li2 {
+    display: inline;
+    margin-left: 30%;
+  }
+  li2 a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  .bnav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: #333333
+    }
+  .bnav {
+      display: inline;
+  }
+  .bnav__item {
+      position: relative;
+      padding: 10px;
+      outline: none;
+      display: block;
   }
